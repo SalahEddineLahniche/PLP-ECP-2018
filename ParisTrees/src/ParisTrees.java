@@ -24,6 +24,10 @@ import org.apache.hadoop.util.ToolRunner;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.IntWritable;
 
+/**
+ * @author Salah Eddine
+ *
+ */
 
 public class ParisTrees extends Configured implements Tool {
 

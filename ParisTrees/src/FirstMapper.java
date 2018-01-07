@@ -4,6 +4,11 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
+/**
+ * @author Salah Eddine
+ *
+ */
+
 public class FirstMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 	
 	private final static IntWritable max

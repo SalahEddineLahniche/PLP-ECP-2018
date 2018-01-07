@@ -5,6 +5,10 @@ import java.io.IOException;
 import java.util.Iterator;
 import org.apache.hadoop.io.IntWritable;
 
+/**
+ * @author Salah Eddine
+ *
+ */
 
 public class FirstReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
 
